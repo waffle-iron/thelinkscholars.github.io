@@ -1,38 +1,163 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>The Link Scholars</title>
-
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-		<meta name='description' content='' />
-		<meta name='keywords' content='' />
-		<meta name="robots" content="index, nofollow" />
-		<meta name='language' content='english' />
-		<meta name='author' content='HexR' />
-		<meta name='HandheldFriendly' content='True' />
-		<meta charset='UTF-8' />
+		<title>Starter Template - Materialize</title>
 
-		<link rel="stylesheet" type="text/css" href="assets/material/css/materialize.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/global.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/index.css" />
-
-		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-		<script type="text/javascript" src="assets/material/js/materialize.js"></script>
-		<script type="text/javascript" src="assets/js/global.js" async defer></script>
-		<script type="text/javascript" src="assets/js/index.js" async defer></script>
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="assets/material/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="assets/css/global.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="assets/css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	</head>
-	<body>
-		<header></header>
-		<main>
-			<div class="hero row valign-wrapper parallax-container">
-				<div class="parallax-container hero-content container valign center">
-					<h3 class="title">Link Scholars</h3>
-					<a class="btn btn-green waves-effect waves-effect-light">Call to Action!</a>
-				</div>
-				<div class="parallax"><img src="assets/img/hero.jpeg"></div>
+	<body class="light-blue lighten-5">
+		<nav class="cyan accent-4" role="navigation">
+			<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+				<ul id="services-dropdown" class="dropdown-content">
+					<li><a href="#">Service A</a></li>
+					<li><a href="#">Service B</a></li>
+					<li><a href="#">Service C</a></li>
+					<li><a href="#">Service D</a></li>
+				</ul>
+				<ul id="team-dropdown" class="dropdown-content">
+					<li><a href="#">City A</a></li>
+					<li><a href="#">City B</a></li>
+					<li><a href="#">City C</a></li>
+					<li><a href="#">City D</a></li>
+				</ul>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a class="dropdown-button" href="#!" data-activates="services-dropdown">Services<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a class="dropdown-button" href="#!" data-activates="team-dropdown">Team<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Get Involved</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul id="nav-mobile" class="side-nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li class="no-padding">
+						<ul class="collapsible collapsible-accordion">
+							<li>
+								<a class="collapsible-header">Services<i class="material-icons right">arrow_drop_down</i></a>
+								<div class="collapsible-body">
+									<ul>
+										<li><a href="#">Service A</a></li>
+										<li><a href="#">Service B</a></li>
+										<li><a href="#">Service C</a></li>
+										<li><a href="#">Service D</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="no-padding">
+						<ul class="collapsible collapsible-accordion">
+							<li>
+								<a class="collapsible-header">Team<i class="material-icons right">arrow_drop_down</i></a>
+								<div class="collapsible-body">
+									<ul>
+										<li><a href="#">City A</a></li>
+										<li><a href="#">City B</a></li>
+										<li><a href="#">City C</a></li>
+										<li><a href="#">City D</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Get Involved</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 			</div>
-		</main>
-		<footer></footer>
+		</nav>
+		<div class="section no-pad-bot no-pad-top" id="index-banner">
+			<div class="parallax-container">
+				<div class="parallax">
+					<img src="/assets/img/hero.jpeg" alt="Hero Image" />
+				</div>
+			</div>
+		</div>		
+		<div class="container">
+			<h1 class="light-blue-text text-darken-4 center">Link Scholars | Slogan text</h1>
+			<p class="flow-text">
+				{{About text}} Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt urna sapien, quis porttitor mauris faucibus id. Donec accumsan ligula eu cursus ultricies. Donec et vehicula dolor. In turpis lectus, aliquet nec augue quis, hendrerit porttitor odio. Sed in vehicula velit. Nulla sagittis, dui in facilisis pretium, ante est vestibulum tortor, et fringilla diam leo id nunc. Praesent tincidunt consectetur magna sit amet congue. Duis lectus lorem, imperdiet vel mauris id, hendrerit iaculis dui. Curabitur tellus augue, porttitor eget sagittis vitae, auctor in massa. Ut nisl libero, hendrerit eleifend condimentum et, sollicitudin nec quam. Nunc placerat, augue quis facilisis ultricies, sapien velit auctor mauris, vitae sagittis odio justo eget risus. Vestibulum eu eros aliquam, elementum ipsum at, aliquam nisl. Donec pretium, nisi sit amet rhoncus lacinia, est ante vestibulum neque, ut lobortis sapien diam non eros.
+			</p>
+		</div>
+		<div class="section no-pad-bot no-pad-top" id="index-banner-2">
+			<div class="parallax-container">
+				<div class="parallax">
+					<img src="/assets/img/hero.jpeg" alt="Hero Image" />
+				</div>
+			</div>
+		</div>
+		<div class="container row">
+			<h1 class="light-blue-text text-darken-4 center">Services</h1>
+			<div class="col s12 m4">
+				<h2 class="center light-blue-text text-darken-3"><i class="material-icons large">room_service</i></h2>
+				<h5 class="center">Room Service</h5>
+				<p class="flow-text light">Room service is pretty great. We offer it at prices you can never beat. Order now!</p>
+			</div>
+			<div class="col s12 m4">
+				<h2 class="center light-blue-text text-darken-3"><i class="material-icons large">room_service</i></h2>
+				<h5 class="center">Room Service</h5>
+				<p class="flow-text light">Room service is pretty great. We offer it at prices you can never beat. Order now!</p>
+			</div>
+			<div class="col s12 m4">
+				<h2 class="center light-blue-text text-darken-3"><i class="material-icons large">room_service</i></h2>
+				<h5 class="center">Room Service</h5>
+				<p class="flow-text light">Room service is pretty great. We offer it at prices you can never beat. Order now!</p>
+			</div>
+		</div>
+		<div class="section no-pad-bot no-pad-top" id="index-banner-3">
+			<div class="parallax-container">
+				<div class="parallax">
+					<img src="/assets/img/hero.jpeg" alt="Hero Image" />
+				</div>
+			</div>
+		</div>
+		<footer class="page-footer grey darken-4">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Company Bio</h5>
+						<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Settings</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container center">
+					Made with <a class="pink-text">❤</a> by <a href="https://hexr.org" target="_blank">HexR</a>. Proudly hosted with <a href="https://pages.github.com/" target="_blank">GitHub</a>
+				</div>
+			</div>
+		</footer>
+		
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="assets/material/js/materialize.min.js"></script>
+		<script src="assets/js/global.js"></script>
+		<script src="assets/js/index.js"></script>
 	</body>
 </html>
