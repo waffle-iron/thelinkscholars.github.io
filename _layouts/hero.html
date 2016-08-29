@@ -1,0 +1,16 @@
+{% include header.html %}
+			<div class="section no-pad-bot no-pad-top" id="index-banner">
+				<div class="slider home-slider">
+					<ul class="slides">
+						<li>
+							<img src="assets/img/hero.jpeg" />
+							<div class="caption center-align">
+								{% if page.hero-title %}<h3>{{ page.hero-title }}</h3>{% endif %}
+								{% if page.hero-caption %}<h5 class="light grey-text text-lighten-3">{{ page.hero-caption }}</h5>{% endif %}
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+{{content}}
+{% include footer.html %}
