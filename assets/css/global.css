@@ -6,4 +6,4 @@ nav ul a, nav .brand-logo, nav a{color:#333}
 .icon img{width:24px;height:24px}
 .icon.twitter img{width:29px; heigh:29px}
 a.icon:hover{filter:none}
-.person-description:nth(even){background:grey}
+.person-description:nth-child(even){background:grey}
