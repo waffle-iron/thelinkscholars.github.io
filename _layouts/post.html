@@ -1,0 +1,15 @@
+{% include header.html %}
+	<div class="container article">
+		<header class="entry-meta">
+			<div class="row">
+				<div class="col s12 date-published">
+					{{ page.date | date: "%m/%d/%Y" }}
+				</div>
+				<div class="col s12 post-categories">
+					{{ page.categories }}
+				</div>
+			</div>
+		</header>
+		{{content}}
+	</div>
+{% include footer.html %}
