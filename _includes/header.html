@@ -8,6 +8,7 @@
 		<link href="/assets/material/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 		<link href="/assets/css/global.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 		<link href="/assets/css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<style>nav{text-transform:uppercase}</style>
 	</head>
 	<body class="white">
 		<nav class="white" role="navigation">
@@ -20,6 +21,13 @@
 					<li><a href="#">[[Service C]]</a></li>
 					<li class="divider"></li>
 					<li><a href="#">[[Service D]]</a></li>
+				</ul>
+				<ul id="involved-dropdown" class="dropdown-content">
+					<li><a href="#">Mentor Application</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Mentee Referral</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Partner with Us</a></li>
 				</ul>
 				<ul id="team-dropdown" class="dropdown-content">
 					<li><a href="#">[[City A]]</a></li>
@@ -36,7 +44,7 @@
 					<li><a class="dropdown-button" href="#!" data-activates="services-dropdown">Services<i class="material-icons right">arrow_drop_down</i></a></li>
 					<li><a class="dropdown-button" href="#!" data-activates="team-dropdown">Team<i class="material-icons right">arrow_drop_down</i></a></li>
 					<li><a href="#">Blog</a></li>
-					<li><a href="#">Get Involved</a></li>
+					<li><a class="dropdown-button" href="#!" data-activates="involved-dropdown">Get Involved<i class="material-icons right">arrow_drop_down</i></a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
 				<ul id="nav-mobile" class="side-nav">
@@ -84,7 +92,22 @@
 					<li class="divider"></li>
 					<li><a href="#">Blog</a></li>
 					<li class="divider"></li>
-					<li><a href="#">Get Involved</a></li>
+					<li class="no-padding">
+						<ul class="collapsible collapsible-accordian">
+							<li>
+								<a class="collapsible-header">Get Involved<i class="material-icons right">arrow_drop_down</i></a>
+								<div class="collapsible-body">
+									<ul>
+										<li><a href="#">Mentor Application</a></li>
+										<li class="divider"></li>
+										<li><a href="#">Mentee Referral</a></li>
+										<li class="divider"></li>
+										<li><a href="#">Partner with Us</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</li>
 					<li class="divider"></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
