@@ -2,7 +2,7 @@ footer.page-footer .footer-copyright{background-color:rgba(0,0,0,.3)}
 nav ul a, nav .brand-logo, nav a{color:#333}
 .dropdown-content{margin-top:56px;}
 @media only screen and (min-width: 601px) {.dropdown-content{margin-top:64px}}
-.icon{width:24px;height:24px;-webkit-filter: grayscale(100%); filter: grayscale(100%); transition: filter 1s ease;}
+.icon{width:24px;height:24px;-webkit-filter: grayscale(100%); filter: grayscale(100%)}
 .icon img{width:24px;height:24px}
 .icon.twitter img{width:29px; heigh:29px}
 a.icon:hover{filter:none}
