@@ -7,7 +7,8 @@ nav ul a, nav .brand-logo, nav a{color:#333}
 .icon.twitter img{width:29px; heigh:29px}
 a.icon:hover{filter:none}
 .person-description:nth-child(even){background:grey}
-.link-text{color:#ed6363 !important}
-.link{background:#ed6363 !important}
+.link-text{color:#62cdf7 !important}
+.link{background:#62cdf7 !important}
 header{transition:all 0.5s linear}
 .brand-logo{margin:0.5% 0}
+.text-shadow{text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000}

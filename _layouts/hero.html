@@ -5,10 +5,10 @@ layout: default
 	<div class="slider home-slider">
 		<ul class="slides">
 			<li>
-				<img src="/assets/img/hero.jpeg" />
-				<div class="caption center-align">
+				<img src="{% if page.heroimg %}{{page.heroimg}}{% else %}/assets/img/hero.jpg{% endif %}" />
+				<div class="caption center-align {% if page.captionclass %}{{page.captionclass}}{% endif %}">
 					{% if page.hero-title %}<h3>{{ page.hero-title }}</h3>{% endif %}
-					{% if page.hero-caption %}<h5 class="light grey-text text-lighten-3">{{ page.hero-caption }}</h5>{% endif %}
+					{% if page.hero-caption %}<h5>{{ page.hero-caption }}</h5>{% endif %}
 				</div>
 			</li>
 		</ul>
